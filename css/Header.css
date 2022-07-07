@@ -1,0 +1,26 @@
+.header {
+	border: 1px solid #DADEE0;
+	background-color: #FFFFFF;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	margin: 10px 10px 0px 10px;
+	border-radius: 5px;
+	padding: 10px 0 10px 10px;
+}
+.main-title {
+	padding: 0 10px;
+	color: #475466;
+	font-size: 18px;
+	font-weight: 400;
+}
+.logotype {
+	height: inherit;
+}
+
+@media screen and (max-width: 426px) {
+	.header {
+		margin: 0px 0px 0px 0px;
+		border-radius: 0px;
+	}
+}

@@ -1,0 +1,24 @@
+@import url(./Aside.css);
+@import url(./Header.css);
+@import url(./Main.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+body {
+	background-color: #dadbdd;
+}
+
+a {
+	text-decoration: none;
+	color: #475466;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;
+}
+
+.wardrobe-app {
+	display: flex;
+	height: 100vh;
+}
